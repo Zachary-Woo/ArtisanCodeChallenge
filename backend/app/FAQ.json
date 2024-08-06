@@ -18,7 +18,7 @@
         },
         {
             "question": "Where does Ava find leads?",
-            "answer": "We work with a number of industry-leading data providers to give Ava access to the most accurate and valuable B2B data through advanced AI-powered automation. You don’t need to have your own data source - everything is built into our AI sales platform, enhancing the efficiency of your sales teams."
+            "answer": "We work with a number of industry-leading data providers to give Ava access to the most accurate and valuable B2B data through advanced AI-powered automation. You dont need to have your own data source - everything is built into our AI sales platform, enhancing the efficiency of your sales teams."
         },
         {
             "question": "Who does Ava send emails as?",
@@ -34,7 +34,7 @@
         },
         {
             "question": "Can Ava make phone calls?",
-            "answer": "We’re currently building our Dialer so your salespeople can do cold calling and outreach through our platform! Ava will be able to listen in, take notes in real-time, and streamline your workflow with automated follow-up phone calls during your sales calls."
+            "answer": "Were currently building our Dialer so your salespeople can do cold calling and outreach through our platform! Ava will be able to listen in, take notes in real-time, and streamline your workflow with automated follow-up phone calls during your sales calls."
         },
         {
             "question": "What's the pricing to hire Ava?",
@@ -53,12 +53,12 @@
             "answer": "We offer white glove support as standard. We will work closely with you through the onboarding process, you will have a dedicated account manager, and for larger customers we can set up a direct connection via Slack or Teams."
         },
         {
-            "question": "I’m an existing customer, how do I access the new pricing packages?",
+            "question": "Im an existing customer, how do I access the new pricing packages?",
             "answer": "Reach out to your Artisan account executive, who can do a full walkthrough of the new packages and create a customized proposal for you."
         },
         {
             "question": "Does Ava Work for B2C Leads?",
-            "answer": "You can use Ava for B2C email campaigns, but it does require extra input on your part. Right now, Ava’s database exclusively features B2B leads. If you’re using Ava for a B2C email campaign, you’ll need to upload your own spreadsheet populated with the necessary information to generate email copy. You can learn how to do this here: https://support.artisan.co/en/articles/9191308-how-do-i-upload-a-csv-file-of-my-own-leads. We're working hard to introduce new features to our platform and hope to add B2C leads into Ava’s database soon!"
+            "answer": "You can use Ava for B2C email campaigns, but it does require extra input on your part. Right now, Avas database exclusively features B2B leads. If youre using Ava for a B2C email campaign, youll need to upload your own spreadsheet populated with the necessary information to generate email copy. You can learn how to do this here: https://support.artisan.co/en/articles/9191308-how-do-i-upload-a-csv-file-of-my-own-leads. We're working hard to introduce new features to our platform and hope to add B2C leads into Avas database soon!"
         },
         {
             "question": "",
