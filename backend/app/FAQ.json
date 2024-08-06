@@ -2,19 +2,19 @@
     "faq_list": [
         {
             "question": "What can you do?",
-            "answer": ""
+            "answer": "As Artisan's AI assistant, I can help with many aspects of outbound sales:\n\n1. Lead discovery and research using our database of over 300 million B2B contacts\n2. Drafting personalized cold emails using AI-powered playbooks\n3. Managing email campaigns and optimizing deliverability\n4. Providing analytics on campaign performance\n5. Automating routine sales tasks to free up your team's time\n\nI'm here to streamline your entire outbound process. What specific area would you like help with?"
         },
         {
             "question": "Do you take care of email warm up?",
-            "answer": ""
+            "answer": "Yes, Artisan has a built-in email warmup feature to protect your domain reputation and improve deliverability. Here's how it works:\n\n1. We gradually increase email volume over about 3 weeks\n2. Our AI sends positive interactions to dummy accounts to balance cold outreach\n3. We monitor your mailbox health score and adjust sending limits dynamically\n4. The warmup process continues even after the initial period to maintain reputation\n\nThis helps ensure your cold emails reach inboxes instead of spam folders. Would you like more details on our warmup process?"
         },
         {
             "question": "Will my CRMs be automatically synced if a lead responds to my email?",
-            "answer": ""
+            "answer": "Artisan integrates with popular CRMs like Salesforce and HubSpot to export engaged leads. While full automatic syncing isn't mentioned, we do offer:\n\n1. The ability to export leads who have engaged with your campaigns\n2. Integration to prevent reaching out to contacts already in your CRM\n3. A daily email summary of all responses you've received\n\nFor the most up-to-date information on our CRM integration capabilities, I'd recommend speaking with our sales team. Would you like me to arrange that for you?"
         },
         {
             "question": "I need some help setting up my campaign.",
-            "answer": ""
+            "answer": "Of course! I'd be happy to guide you through setting up your campaign. Here's a quick overview of the process:\n\n1. Define your target customer persona (industries, job titles, company size, etc.)\n2. Create your campaign pitch (company info, features, pain points, proof points)\n3. Choose campaign settings (language, email signature, calendar link, tone of voice)\n4. Select an AI Playbook for email writing style\n5. Activate your campaign\n\nWould you like to start with defining your target customer persona, or is there a specific part of the setup you need help with?"
         },
         {
             "question": "Where does Ava find leads?",
@@ -59,10 +59,6 @@
         {
             "question": "Does Ava Work for B2C Leads?",
             "answer": "You can use Ava for B2C email campaigns, but it does require extra input on your part. Right now, Avas database exclusively features B2B leads. If youre using Ava for a B2C email campaign, youll need to upload your own spreadsheet populated with the necessary information to generate email copy. You can learn how to do this here: https://support.artisan.co/en/articles/9191308-how-do-i-upload-a-csv-file-of-my-own-leads. We're working hard to introduce new features to our platform and hope to add B2C leads into Avas database soon!"
-        },
-        {
-            "question": "",
-            "answer": "Please type a question and I'll do my best to help you out!"
         }
     ]
 }

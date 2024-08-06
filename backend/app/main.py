@@ -20,6 +20,10 @@ chat_history: List[Dict[str, Any]] = []
 async def chat_endpoint(message: Message):
     global chat_history
 
+    # Check if the message content is empty
+    if not message.content.strip():
+        return {"response": "Please type a question and I'll do my best to help you out!"}
+
     # Load the FAQ knowledge base & find the best match for the user's input
     faq_knowledge_base = util.load_knowledge_base("FAQ.json")
     best_match: str | None = util.find_best_match(message.content, [q["question"] for q in faq_knowledge_base["faq_list"]])
