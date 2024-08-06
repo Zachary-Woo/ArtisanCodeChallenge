@@ -3,7 +3,7 @@ uvicorn
 pydantic
 python-dotenv
 openai
+langchain
 langchain_openai
 langchain_community
 faiss-cpu
-json
