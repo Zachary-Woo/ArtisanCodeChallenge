@@ -53,7 +53,7 @@ def generate_response(history: List[Dict[str, Any]], user_message: str) -> str:
         formatted_history += f"{role}: {msg['content']}\n"
 
     # Get relevant data
-    relevant_data = get_relevant_data(user_message, number_of_chunks=5, chunk_size=500)
+    relevant_data = get_relevant_data(user_message, number_of_chunks=10, chunk_size=500)
 
     # Call the basicLangchainOpenAICall function
     response = basicLangchainOpenAICall(
