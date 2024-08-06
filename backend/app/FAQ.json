@@ -1,0 +1,20 @@
+{
+    "faq_list": [
+        {
+            "question": "What can you do?",
+            "answer": "answer 1 example"
+        },
+        {
+            "question": "Do you take care of email warm up?",
+            "answer": ""
+        },
+        {
+            "question": "Will my CRMs be automatically synced if a lead responds to my email?",
+            "answer": "blue red green"
+        },
+        {
+            "question": "I need some help with setting up my campaign.",
+            "answer": ""
+        }
+    ]
+}
