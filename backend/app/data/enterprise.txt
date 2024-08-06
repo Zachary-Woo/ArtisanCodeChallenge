@@ -1,0 +1,111 @@
+A Customizable AI Outbound Platform,
+Built for Enterprise
+Artisan Sales is designed with enterprise in mind. We push the boundaries of what’s possible with software, automating and optimizing how outbound is done - the days of Outreach, Salesloft & Clay are over.
+
+Features
+Why Enterprise Should Switch to Artisan
+Save on Software License Fees
+Save millions of dollars every year with our consolidated platform. We offer every tool you need, under one simple subscription.
+
+Save on Software License Fees
+Stop Reps Context Switching
+Our platform consolidates every tool you need – from lead discovery to deliverability optimization – allowing reps to focus on closing deals without interruption.
+
+Stop Reps Context Switching
+Save on Headcount
+Maximize your resources and reduce the need for additional hires. By automating routine tasks and optimizing workflows, your existing team can handle higher volumes of outbound more efficiently.
+
+Save on Headcount
+Replicate Top-Performing Reps
+Turn your best reps’ winning strategies into automated AI Playbooks. Your team will be able to execute these proven methods and watch your sales processes continuously self-optimize for maximum efficiency.
+
+Replicate Top-Performing Reps
+Standardize Messaging Across Your Team
+Ensure your outreach is unified and consistent with our AI Playbooks and tone of voice tools, amplifying your team’s ability to win over prospects.
+
+Standardize Messaging Across Your Team
+Our platform automates all manual research and writing tasks your reps currently handle, freeing up their time to focus on higher value activities like building customer relationships and taking calls.
+
+We Make Sure Your Emails Hit Inboxes
+Our AI-driven email warmup builds sender reputation, while easy unsubscribe options prevent spam reports. We also validate email addresses with built-in bounce testing and data cleaning.
+
+DNS Settings Tracking
+Ensure your domain DNS settings are always setup correctly, maintaining your sender reputation and improving deliverability.
+
+Mailbox Health Monitoring
+Daily monitoring of the health of each mailbox you have linked to optimize inbox placement.
+
+Placement Tests
+Ongoing placement tests to ensure you're landing in the primary inbox, not the spam folder.
+
+Dynamic Send Limits
+We dynamically adjust the daily send limit of each mailbox based on several deliverability metrics like bounce rate and sender score.
+
+Email Warmup
+Build your sender reputation with AI-driven email warmup, which sends positive emails to bots to help balance your cold outbound communications and avoid spam folders.
+
+B2B Data Coverage in Over200 Countries
+Ava has data coverage globally, to complement her ability to research and write emails in over 40 languages.
+
+Pilot, Compare & Switch Seamlessly
+Transitioning onto Artisan is effortless. We will work closely with you to integrate Artisan into your existing sales stack & workflows, replacing & automating inferior tools.
+
+Phase 1: Pilot
+1
+Discovery Call
+Initial call with your sales leadership to understand your existing outbound workflow and objectives.
+
+2
+Proposal
+Detailed outline of how we will pilot Artisan within your sales team, including timeline, deliverables, and pricing.
+
+3
+Implementation Strategy Call
+Discussion with your leadership team to ensure alignment and performance metrics are established for seamless execution.
+
+4
+Kick Off Pilot With Sample of Your Outbound Org
+We'll onboard 5-10 of your BDRs onto Artisan and train them on how to set up campaigns and maximize value on our platform.
+
+5
+Weekly Sync With Account Manager
+Your team will have a weekly check-in with one of our expert Account Managers, who will ensure things are running smoothly and suggest strategies to optimize your campaigns.
+
+Phase 2: Full Rollout
+1
+Transition Strategy Meeting
+We'll reflect on pilot outcomes and scope out full org requirements, before expanding Artisan across your entire sales team.
+
+2
+Integration With Your Full Software Stack
+We'll seamlessly integrate our solution with your existing sales stack to ensure smooth data flow and operational continuity.
+
+3
+Development of All Required Custom Features
+Our team will custom engineer our platform to align with your unique workflows and requirements.
+
+4
+Platform Training for Your Sales Team
+Comprehensive training sessions for your reps to ensure they are skilled and confident in using the new platform.
+
+5
+Hands-On Technical Support
+Receive dedicated support throughout the transition period to address any issues promptly and minimize disruptions.
+
+6
+Ongoing Support From Your Account Manager
+Frequent check-ins from one of our expert account managers to ensure your needs are promptly addressed.
+
+Safety & Security
+
+Privacy & Security Are In Our DNA
+For us, safety is just as important as innovation. We take rigorous measures to exceed security and compliance expectations.
+
+Certifications
+We’re in the process of obtaining the following industry-standard certifications: AICPA SOC, ISO, PCI DSS compliant
+
+Data Protection
+We ensure email content protection you can opt out of using your data to train our models. Your leads & CRM data is securely protected and never shared with other users.
+
+Internal Policies
+We prioritize stringent data access protection, offer prompt deletion upon request, and employ robust cybersecurity measures to safeguard your information against unauthorized access and potential threats.

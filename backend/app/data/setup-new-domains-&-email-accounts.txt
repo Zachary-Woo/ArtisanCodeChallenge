@@ -1,0 +1,49 @@
+How To Setup New Domains & Email Accounts
+Updated over a week ago
+Setting up alternate domains is a great way completely protect the reputation of your main company domain, and it's easy! 
+
+ 
+
+How Many Email Inboxes & Domains Do I Need?
+To be safe, you should aim to have one mailbox for every 400 leads in your plan.
+
+ 
+
+The Process Of Setting Up New Domains & Email Accounts
+1. Buy A Domain
+Buy a domain similar to yours (so prospects know what your company is called. For example, if your primary domain is greensaas.com, you might purchase the domain getgreensaas.com. We'd recommend buying a domain through GoDaddy. 
+
+ 
+
+2. Get Email Addresses
+Now, you need to get your email addresses. The account should have the name of whoever you want it to look like the emails are coming from. E.g., if Jenna is the one taking the sales meetings Ava books for our example company Green SaaS, for a Supercharge account, you would create 6 Google Workspace users, with emails like:
+
+jenna@greensaas.com
+
+j@greensaas.com
+
+jennas@greensaas.com
+
+jennasmith@greensaas.com
+
+jsmith@greensaas.com
+
+js@greensaas.com
+
+ 
+
+Set your new email addresses up in a new Google Workspace account. You can create a new account here. Google will run you through the process of adding your domain. 
+
+ 
+
+3. Setup DKIM, DMARC & SPF Records
+You need to set up these records to make sure your emails deliver. See the separate article on how to here.
+
+ 
+
+4. Give Ava Access To Your Email
+Now, the magic happens. Head to the Mailboxes page and add your new emails.
+
+ 
+
+Note that when an email account is new, Ava will slowly increase the number of prospects she enrolls per day. This is to "build up" the email and prevent your outreach from going to spam. This process takes around 3 weeks until you're at maximum volume.

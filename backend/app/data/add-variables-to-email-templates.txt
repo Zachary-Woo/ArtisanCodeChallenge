@@ -1,0 +1,46 @@
+How To Add Variables To Your Email Templates
+A support article to show you how to add variables to your email templates to personalize your cold emails.
+
+Updated over a week ago
+Watch the video tutorial on Youtube here: https://youtu.be/7hAMTNOKyYY?si=gWisAL9H7pBCCei7
+
+Incorporating variables into your email templates is a smart way to personalize your messages at scale. Here’s a quick guide to help you get started:
+
+Step 1: Access Your Template
+
+Navigate to the 'Email Templates' section in your Outbound Settings.
+
+Create a new email template to work from.
+
+Step 2: Insert Variables
+
+Place your cursor where you want to insert a variable in the template.
+
+To add a variable to the body of your email, use the "Insert Variable" button to open the variables menu.
+
+Choose the variable you want to insert, such as First Name, Company Name, etc. These will automatically be replaced with the recipient's information when the email is sent. (They will appear in the body of your email as $first_name, $company_name, etc.)
+
+For the email subject line, press the "+" button to the right of the subject line to add a variable.
+
+Step 3: Customize Your Message
+
+Continue composing your email. You can insert as many variables as needed to make your message feel personal and relevant.
+
+Remember, variables should make sense within the context of your message to maintain flow and readability.
+
+Step 4: Save and Use
+
+Once you’re satisfied with the template, save your changes.
+
+Your template is now ready to use, with variables set to personalize each email sent to your recipients.
+
+Best Practices
+
+Keep It Relevant: Only use variables that add value to your message. Overuse can make an email feel impersonal.
+
+Test Regularly: Regularly test your templates to catch any issues with variables or data integration.
+
+Get Help: If your variables don't seem to be working well, reach out to our team so we can identify what the issue is!
+
+By following these steps, you’ll be able to effectively use variables in your email templates, adding a personal touch to your mass communications without the extra time and effort of individual customization.
+

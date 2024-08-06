@@ -1,0 +1,9 @@
+Help! Ava Is Sending Strange Messages From My Email
+Is Ava sending emails that you don't recognize from your inbox? You haven't been hacked! It's our email warmup service.
+
+Updated over a week ago
+If you notice odd messages in your sent folder, don’t panic. Chances are, this is all part of our warmup email feature, which establishes your domain reputation to ensure messages don’t get filtered to spam. You can learn more here: https://support.artisan.co/en/articles/9191300-what-is-email-warmup
+
+ 
+
+During the warmup period, Ava sends fake warm interactions to dummy accounts to balance cold outbound. There is no need to be concerned about these strange emails. You haven't been hacked and they are not going to real prospects!

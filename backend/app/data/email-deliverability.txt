@@ -1,0 +1,44 @@
+Making Sure Emails Hit Inboxes Is Our Business
+Effective emails are futile if they’re trapped in the spam folder. We offer the most robust out-of-the-box email deliverability solution on the market.
+
+Monitor
+Monitoring Deliverability Metrics
+DNS Settings Tracking
+DNS Settings Tracking
+Ava automatically checks your domain DNS settings on a daily basis to ensure your SPF, DKIM, DMARC, R-DNS, A & MX records are set up correctly.
+
+Mailbox Health Monitoring
+Mailbox Health Monitoring
+Each mailbox has a health score, which is a numerical representative of all email address vital signs Ava tracks.
+
+Placement Tests
+Placement Tests
+Ongoing placement tests to ensure you’re landing in the primary inbox, not the spam folder.
+
+Improve
+Actively Improving Deliverability
+Dynamic Send Limits
+Dynamic Send Limits
+Ava dynamically adjusts the daily send limit of each mailbox based on its health score and placement tests.
+
+Email Warmup
+Email Warmup
+AI-driven email warmup sends emails to bots that engage positively to balance any negative responses to cold outbound.
+
+Easy Unsubscribe
+Easy Unsubscribe
+Leads can automatically opt-out by responding to the cold email, so you avoid getting marked as spam.
+
+Optimize
+Optimizing to Avoid Spam Filters
+Data Cleaning
+Data Cleaning
+All email addresses are bounce-tested and validated before being contacted, reducing bounced emails.
+
+Safe Email Content
+Safe Email Content
+Ava avoids links and spam words and follows all deliverability best practices when writing emails for you.
+
+Unique Content Generation
+Unique Content Generation
+All emails are uniquely researched and written by Ava, and signatures are rotated to avoid getting snowshoed by ESPs.

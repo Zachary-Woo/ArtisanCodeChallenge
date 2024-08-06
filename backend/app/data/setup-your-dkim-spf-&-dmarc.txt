@@ -1,0 +1,76 @@
+How To Set Up Your DKIM, SPF and DMARC
+Updated over a week ago
+Note: The following steps are specifically for those using Google as their domain and mail provider. Before applying these values, verify with your provider, as they typically have their own guides.
+
+ 
+
+How To Set Up DKIM
+Log in at admin.google.com.
+
+Navigate to Menu > Apps > Google Workspace > Gmail > Authenticate Email.
+
+Generate a DKIM Key.
+
+Create a DNS TXT record with this key at your domain provider (e.g., GoDaddy, Squarespace).
+
+Google guide: here
+
+Office 365 guide: here
+
+ 
+
+How To Set Up SPF
+Go to your domain admin site and find DNS Management or Settings.
+
+Locate any existing SPF records (they start with "v=spf1…").
+
+If there's an existing SPF record, you should be good to go!
+
+If there isn't, add a TXT record with the name "@" and the value:
+
+ 
+
+For a standard Google Workspace (Google for Business) account:
+
+v=spf1 include:_spf.google.com ~all
+ 
+
+For a standard Office 365 (Outlook for Business) account:
+
+v=spf1 include:spf.protection.outlook.com -all
+ 
+
+If you need to add a hostname, make it: @ 
+
+ 
+
+Google guide: here
+
+Office 365 guide: here
+
+ 
+
+How To Set Up DMARC
+Go to your domain admin site and find DNS Management or Settings.
+
+Add a new TXT record with one of the following values:
+
+ 
+
+Host Name: 
+
+_dmarc
+
+ 
+
+Value: 
+
+v=DMARC1; p=none; rua=mailto:your_email@example.com;
+
+ 
+
+Replace the placeholder email with your own - it can be any of your company emails.
+
+Google guide: https://support.google.com/a/answer/2466563?hl=en
+
+Office 365 guide: https://learn.microsoft.com/en-us/defender-office-365/email-authentication-dmarc-configure?view=o365-worldwide#set-up-dmarc-for-outbound-mail-from-microsoft-365

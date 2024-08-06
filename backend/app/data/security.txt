@@ -1,0 +1,68 @@
+Security & Compliance
+The security of your data and compliance of our platform are of the utmost importance to us.
+
+Certifications
+We’re currently in the process of being audited for the following certifications:
+
+SOC 2 Type 2
+SOC 2 Type 2
+This certification ensures that our services meet the high standards for security, availability, processing integrity, confidentiality, and privacy of customer data.
+
+ISO 27001
+ISO 27001
+As the leading international standard for information security management, obtaining ISO 27001 certification signifies our commitment to implementing a robust and comprehensive information security management system (ISMS).
+
+PCI Attestation of Compliance
+PCI Attestation of Compliance
+This attestation demonstrates our adherence to the Payment Card Industry Data Security Standard (PCI DSS), ensuring that all credit card data processed, stored, or transmitted is secure against breaches and fraud.
+
+Data Protection
+We have the capability to safeguard sensitive information from unauthorized access, misuse, or theft by taking meticulous steps to protect your privacy. If you require any data protection features, please let our sales team know.
+
+Private LLMs
+Text access and generation are handled independently of external servers, ensuring that your data remains private and secure.
+
+Email Content Protection
+Your email content is protected and never used for AI training, maintaining the confidentiality of your communications.
+
+Contact Data Protection
+Your contacts are kept strictly confidential and are never shared with other users, ensuring that your database remains private and secure.
+
+Data Access Protection
+We enforce rigorous company-wide guidelines for accessing sensitive data, ensuring only authorized personnel can access your information.
+
+Deletion Upon Request
+Effortlessly remove personal data upon request, no questions asked, providing you with complete control over your information.
+
+Robust Cybersecurity
+We implement comprehensive measures and protocols to protect against cyber threats, safeguarding your data with state-of-the-art security practices.
+
+Artisan For
+Enterprise
+Free your sales team from hours of manual work, so they can focus on what really matters: closing deals.
+
+Consolidate Your Fragmented Stack
+We consolidate every tool your team needs for outbound with best-in-class products - from B2B Data to Email Warmup.
+
+Free Reps to Focus on High-Leverage Work
+Ava automates over 80% of your BDRs' outbound workflow, and does it more effectively. This frees up your reps so they focus on high-leverage activities like calling prospects and closing deals.
+
+Automate Your Best Manual Strategies
+We can build custom Playbooks that replicate the research & email writing workflows of your top performers, automate them with Ava, and make them available to the entire team.
+
+The answers to your questions
+How does Artisan pricing work?
+
+Artisan is priced based on the volume of leads you are doing outreach to. We can split this between BDR & AE seats as required.
+
+We have specific security requirements that are not covered on your site - can you accommodate them?
+
+Yes! Reach out to our sales team and we can work with you to scope your specific requirements and ensure Artisan is set up and used in a compliant way.
+
+What kind of support do you offer?
+
+We offer white glove support as standard. We will work closely with you through the onboarding process, you will have a dedicated account manager, and for larger customers we can set up a direct connection via Slack or Teams.
+
+I’m an existing customer, how do I access the new pricing packages?
+
+Reach out to your Artisan account executive, who can do a full walkthrough of the new packages and create a customized proposal for you.

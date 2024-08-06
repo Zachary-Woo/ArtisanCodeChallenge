@@ -1,0 +1,17 @@
+How Many Email Addresses Do I Need for Different Plans?
+We offer three different plans at Artisan: Accelerate, Supercharge, and Blitzscale. Learn how many email addresses you need for each one.
+
+Updated over a week ago
+Artisan offers three different plan types: Accelerate, Supercharge, and Blitzscale. Each requires you to set up new domains and email addresses for Ava to use. These recommendations are based on the need to maintain a safe, efficient outreach strategy. Each email address has a daily cap that prevents you from going over the spam limit. 
+
+Ideally, you should have at least one mailbox for every 500 leads. Each plan’s email requirements are designed with this in mind: 
+
+Accelerate: Requires 2 email addresses. Contacts 750 leads per month.  
+
+Supercharge: Requires 4 email addresses. Contacts 1500 leads per month.  
+
+Blitzscale: Requires 6 email addresses. Contacts 3000 leads per month.  
+
+We also have a feature that allows you to invite your team members to the platform, so you can work together. You can either invite users as "Delegates", where they have access to your account and share your existing plan, or you can invite them as "Members", where they pay for their own plan and you can share campaigns with each other.
+
+If you’re a mid-market or enterprise company, we also offer custom plans. With these plans, you can invite your entire BDR organization to the platform and we can create custom features to align with your existing outbound workflow. Chat with us to learn more: https://artisan.co/talk-to-sales/ 

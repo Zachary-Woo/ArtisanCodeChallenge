@@ -1,0 +1,37 @@
+Ava Isn’t Sending Out My Emails. Why?
+Several factors could be preventing Ava from sending your emails. Read this article to identify what the issue might be.
+
+Updated over a week ago
+We’re sorry to hear Ava has not been sending out your emails. 
+
+There are several ways to troubleshoot the problem. By going over the steps below, we’re confident you’ll get Ava back up and running! 
+
+Are You in the Warmup Period? 
+Are you within the first three weeks of your account? If so, you may still be in the warmup period. 
+
+Our built-in email warmup service helps establish your domain reputation to ensure Ava's emails do not get filtered to spam. During this time, Ava gradually builds up the number of emails she sends per day. It takes approximately three weeks for your mailbox to reach full sending capacity.
+
+To learn more about Email Warmup, check out our article here:  https://support.artisan.co/en/articles/9191300-what-is-email-warmup
+
+Have You Connected All Your Mailboxes?
+In your Mailboxes page, make sure you have enough emails connected and that they all have a green status.
+
+You can find out how many emails you need per plan here:  https://support.artisan.co/en/articles/9191325-how-many-email-addresses-do-i-need-for-different-plans
+
+Have You Set Up DKIM, DMARC and SPF Correctly? 
+Check that your DKIM, DMARC, and SPF records are configured correctly. These settings are crucial for email deliverability and ensuring that your emails do not end up in the spam folder or get rejected by the recipient's email server.
+
+You can find an article on how to set up your DNS settings here here: https://support.artisan.co/en/articles/8774818-how-to-set-up-your-dkim-spf-and-dmarc 
+
+Have You Approved Your Emails? 
+We always recommend manually approving emails when you first start using Ava. With Autopilot disabled, Ava will populate emails on the Emails Pending Approval page for you to review before sending.
+
+You’ll need to come on the platform each day to approve emails and review any responses. If Ava is not sending emails, check to see if you still have pending emails to approve.
+
+Do You Have a Target Customer Persona Set Up? 
+Ava can find leads for you based on the targeted customer persona you select. You can also upload your own CSV file of leads for Ava to reach out to. 
+
+If you do not have a target customer persona set up, Ava will be unable to find leads and conduct outreach. If Ava has reached out to everyone on your CSV list, she will also stop sending emails. At this point, you need to either upload a new CSV or set up a new target customer persona. 
+
+Still not working?
+If you’ve tried all of the above and your emails still aren’t sending, please get in touch with us via Intercom. Someone from our team will get back to you as soon as possible to work out the issue!

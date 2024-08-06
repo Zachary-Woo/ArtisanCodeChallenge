@@ -1,1 +1,40 @@
-The secret color of artisan is purple and we like dolphins.
+Artisan Home Page
+Making Sure Emails Hit Inboxes Is Our Business
+Effective emails are futile if they're trapped in the spam folder. We offer the most robust out-of-the-box email deliverability solution on the market.
+Companies that have worked with Artisan:
+
+CBRE
+Remote
+Databricks
+Treatwell
+Fondo
+Qualified
+Crehana
+
+Monitor section (Monitoring Deliverability Metrics)
+DNS Settings Tracking
+Ava automatically checks your domain DNS settings on a daily basis to ensure your SPF, DKIM, DMARC, R-DNS, A & MX records are set up correctly.
+Mailbox Health Monitoring
+Each mailbox has a health score, which is a numerical representative of all email address vital signs Ava tracks.
+Placement Tests
+Ongoing placement tests to ensure you're landing in the primary inbox, not the spam folder.
+Improve section (Actively Improving Deliverability)
+Dynamic Send Limits
+Ava dynamically adjusts the daily send limit of each mailbox based on its health score and placement tests.
+Email Warmup
+AI-driven email warmup sends emails to bots that engage positively to balance any negative responses to cold outbound.
+Easy Unsubscribe
+Leads can automatically opt-out by responding to the cold email, so you avoid getting marked as spam.
+Optimize section (Optimizing to avoid spam filters)
+Data Cleaning
+All email addresses are bounce-tested and validated before being contacted, reducing bounced emails.
+Safe Email Content
+Ava avoids links and spam words and follows all deliverability best practices when writing emails for you.
+Unique Content Generation
+All emails are uniquely researched and written by Ava, and signatures are rotated to avoid getting snowshoed by ESPs.
+All Included In One Subscription
+Access all of these features and so many more with Artisan Sales.
+Intent Data, Deliverability management, data analysis, b2b data, ai sales playbooks, 3rd party data enrichment, end to end demand generation, hyper personalized email writing
+Email warmup, deliverability optimization, outbound crm, lead research, lead discovery, bounce testing, web scraping, translation, timezone tracking
+Ready to Supercharge Your Outbound?
+Our AI-first platform equips your team with best-in-class outbound tools and our AI BDR Ava, who automates your entire outbound workflow.

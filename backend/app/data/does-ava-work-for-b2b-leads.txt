@@ -1,0 +1,11 @@
+Does Ava Work for B2C Leads?
+Updated over a week ago
+You can use Ava for B2C email campaigns, but it does require extra input on your part. 
+
+ 
+
+Right now, Ava’s database exclusively features B2B leads. If you’re using Ava for a B2C email campaign, you’ll need to upload your own spreadsheet populated with the necessary information to generate email copy. You can learn how to do this here: https://support.artisan.co/en/articles/9191308-how-do-i-upload-a-csv-file-of-my-own-leads
+
+ 
+
+We're working hard to introduce new features to our platform and hope to add B2C leads into Ava’s database soon!
