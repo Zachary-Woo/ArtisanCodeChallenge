@@ -9,6 +9,15 @@ OpenAI.api_key = os.getenv('OPENAI_API_KEY')
 
 def basicLangchainOpenAICall(selected_model, relevant_data, user_message, chat_history):
 
+    # ToDo:
+    # 1. Cases of How do you do ____ being interpreted as being about a person rather than Ava or an ai
+    # 2. Cases of contextual awareness of Artisan being lost in vague or technically correct answers
+    #   - Ex: Q: What ethical guidelines do you follow?
+    #         A: At Artisan.co, we follow stringent data access protection, prompt deletion upon request, and robust cybersecurity measures to safeguard information against unauthorized access and potential threats.
+    # 3. Specific scope details need to be provided to the chatbot
+    #   - Ex: Q: How do you handle sensitive or controversial topics?
+    #         A: At Artisan.co, we handle sensitive or controversial topics with care and professionalism. Our AI business development representative, Ava, is programmed to navigate these topics sensitively and provide thoughtful responses.
+
     llm = ChatOpenAI(model_name=selected_model, temperature=0)
     template = """
     User Query: {query}\n
@@ -28,13 +37,14 @@ def basicLangchainOpenAICall(selected_model, relevant_data, user_message, chat_h
     \nMessage History: \n{history}\n
     Only return the answer to the users query but make sure you consider the query in the context of Artisan.co or the AI artisan Ava. 
     Do not return the query or any other information. 
+    If prompted for the last message, return the only the last message in the chat history.
     Give a direct answer to the user with no formatting.
     """
     
     prompt = PromptTemplate(template=template, input_variables=["data", "query", "history"])
     
     chain = prompt | llm
-    
+
     answer = chain.invoke({
         "data": relevant_data,
         "query": user_message,
