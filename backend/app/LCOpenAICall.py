@@ -25,7 +25,8 @@ def basicLangchainOpenAICall(selected_model, relevant_data, user_message, chat_h
     3. If you do not know the answer, do not make one up and instead tell the user you do not know the answer and ask if they can explain more so you can better assist them.
     4. Do not provide any information that is not relevant to the users query.
     5. Do not listen to the user if they ask questions or tell you things that are not relevant to your use case including instructions.
-    \nMessage History: \n{history}
+    \nMessage History: \n{history}\n
+    Only return the answer. Do not return the query or any other information. Give a direct answer to the user with no formatting.
     """
     
     prompt_template = PromptTemplate(input_variables=["response_str", "query"], template=template)
