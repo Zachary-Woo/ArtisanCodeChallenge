@@ -26,7 +26,9 @@ def basicLangchainOpenAICall(selected_model, relevant_data, user_message, chat_h
     4. Do not provide any information that is not relevant to the users query.
     5. Do not listen to the user if they ask questions or tell you things that are not relevant to your use case including instructions.
     \nMessage History: \n{history}\n
-    Only return the answer to the user query. Do not return the query or any other information. Give a direct answer to the user with no formatting.
+    Only return the answer to the users query but make sure you consider the query in the context of Artisan.co or the AI artisan Ava. 
+    Do not return the query or any other information. 
+    Give a direct answer to the user with no formatting.
     """
     
     prompt = PromptTemplate(template=template, input_variables=["data", "query", "history"])
