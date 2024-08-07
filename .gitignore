@@ -163,3 +163,8 @@ cython_debug/
 
 # Example Files (Used to hold implimentation examples)
 basic_llm_queries
+
+# Specific to Fly.io and the deployment of the app
+Dockerfile
+.dockerignore
+fly.toml
