@@ -55,9 +55,9 @@ async def chat_endpoint(message: Message):
     # Add the assistant's response to chat history
     chat_history.append({"user": "assistant", "content": response})
 
-    # Limit chat history to last 10 messages
-    if len(chat_history) > 10:
-        chat_history = chat_history[-10:]
+    # Limit chat history to last 20 messages (Note: the user and assistant messages are added separately meaning for a chat history of 10 messages, there will be 20 items in the list)
+    if len(chat_history) > 20:
+        chat_history = chat_history[-20:]
 
     return {"response": response}
 
