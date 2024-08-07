@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List, Dict, Any
-from LCOpenAICall import basicLangchainOpenAICall
-from LCGetData import get_relevant_data
-import util
+from .LCOpenAICall import basicLangchainOpenAICall
+from .LCGetData import get_relevant_data
+from .util import load_knowledge_base, find_best_match, get_answer_for_question
 
 app = FastAPI()
 
@@ -25,12 +25,12 @@ async def chat_endpoint(message: Message):
         return {"response": "Please type a question and I'll do my best to help you out!"}
 
     # Load the FAQ knowledge base & find the best match for the user's input
-    faq_knowledge_base = util.load_knowledge_base("FAQ.json")
-    best_match: str | None = util.find_best_match(message.content, [q["question"] for q in faq_knowledge_base["faq_list"]])
+    faq_knowledge_base = load_knowledge_base("FAQ.json")
+    best_match: str | None = find_best_match(message.content, [q["question"] for q in faq_knowledge_base["faq_list"]])
 
     # Generate response before adding the new message to chat_history
     if best_match:
-        answer: str | None = util.get_answer_for_question(best_match, faq_knowledge_base)
+        answer: str | None = get_answer_for_question(best_match, faq_knowledge_base)
         response = answer
     else:
         # Generate response using GPT when no match is found in FAQ

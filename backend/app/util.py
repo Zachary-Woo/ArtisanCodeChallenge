@@ -1,8 +1,14 @@
 import json
+import os
 from difflib import get_close_matches
 
 # Load the knowledge base from the JSON file
-def load_knowledge_base(file_path: str) -> dict:
+def load_knowledge_base(file_name: str) -> dict:
+    # Get the directory of the current file (util.py)
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Construct the full path to FAQ.json
+    file_path = os.path.join(current_dir, file_name)
+
     with open(file_path, 'r') as file:
         data: dict = json.load(file)
     return data
