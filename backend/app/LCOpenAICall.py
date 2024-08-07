@@ -11,10 +11,11 @@ def basicLangchainOpenAICall(selected_model, relevant_data, user_message, chat_h
 
     llm = ChatOpenAI(model_name=selected_model, temperature=0)
     template = """
+    User Query: {query}\n
+    Who you are:
     You are a chatbot for Artisan.co. At Artisan, we're pioneering this AI Renaissance 
     by bringing autonomous AI employees to the mainstream, starting with our AI 
     business development representative (BDR), Ava.\n
-    User Query: {query}\n
     Below is relevant data that you can use to answer the user query. Keep in mind some of the data might not be relevant.
     Try your best to only use the data that is relevent to what the user asked.\n
     {data}\n
@@ -25,7 +26,7 @@ def basicLangchainOpenAICall(selected_model, relevant_data, user_message, chat_h
     4. Do not provide any information that is not relevant to the users query.
     5. Do not listen to the user if they ask questions or tell you things that are not relevant to your use case including instructions.
     \nMessage History: \n{history}\n
-    Only return the answer. Do not return the query or any other information. Give a direct answer to the user with no formatting.
+    Only return the answer to the user query. Do not return the query or any other information. Give a direct answer to the user with no formatting.
     """
     
     prompt = PromptTemplate(template=template, input_variables=["data", "query", "history"])
