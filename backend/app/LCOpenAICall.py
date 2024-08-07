@@ -2,7 +2,6 @@ from dotenv import find_dotenv, load_dotenv
 import os
 from openai import OpenAI
 from langchain_openai import ChatOpenAI
-from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
 load_dotenv(find_dotenv())
@@ -29,10 +28,14 @@ def basicLangchainOpenAICall(selected_model, relevant_data, user_message, chat_h
     Only return the answer. Do not return the query or any other information. Give a direct answer to the user with no formatting.
     """
     
-    prompt_template = PromptTemplate(input_variables=["response_str", "query"], template=template)
-
-    excel_answer_chain = LLMChain(llm=llm, prompt=prompt_template, verbose=True)
-
-    answer = excel_answer_chain.predict(data=relevant_data, query=user_message, history=chat_history)
+    prompt = PromptTemplate(template=template, input_variables=["data", "query", "history"])
     
-    return answer
+    chain = prompt | llm
+    
+    answer = chain.invoke({
+        "data": relevant_data,
+        "query": user_message,
+        "history": chat_history
+    })
+    
+    return answer.content

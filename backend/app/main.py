@@ -66,7 +66,7 @@ def generate_response(history: List[Dict[str, Any]], user_message: str) -> str:
     # Format the chat history
     formatted_history = ""
     for msg in history:
-        role = "User" if msg["user"] == "user" else "Assistant"
+        role = "User" if msg["user"] == "user" else "Assistant" # technically this is unnecessary as this line could be the cause of my bug
         formatted_history += f"{role}: {msg['content']}\n"
 
     # Get relevant data
