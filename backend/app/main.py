@@ -1,11 +1,24 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request, HTTPException, Depends
+from fastapi.security.api_key import APIKeyHeader
 from pydantic import BaseModel
 from typing import List, Dict, Any
+import os
 from .LCOpenAICall import basicLangchainOpenAICall
 from .LCGetData import get_relevant_data
 from .util import load_knowledge_base, find_best_match, get_answer_for_question
 
 app = FastAPI()
+
+API_KEY = os.getenv("ARTISAN_DEMO_API_KEY")
+API_KEY_NAME = "ARTISAN_DEMO_API_KEY"
+api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
+
+# Dependency to get the API key
+def get_api_key(api_key_header: str = Depends(api_key_header)):
+    if api_key_header == API_KEY:
+        return api_key_header
+    else:
+        raise HTTPException(status_code=403, detail="Could not validate credentials")
 
 # Pydantic model for request body
 class Message(BaseModel):
@@ -15,8 +28,8 @@ class Message(BaseModel):
 # In-memory chat history
 chat_history: List[Dict[str, Any]] = []
 
-# Endpoint to handle chat messages
-@app.post("/chat")
+# Endpoint to handle chat messages with API key validation
+@app.post("/chat", dependencies=[Depends(get_api_key)])
 async def chat_endpoint(message: Message):
     global chat_history
 
