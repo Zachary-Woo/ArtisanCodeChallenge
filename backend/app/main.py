@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request, HTTPException, Depends
+from fastapi import FastAPI, HTTPException, Depends
 from fastapi.security.api_key import APIKeyHeader
 from pydantic import BaseModel
 from typing import List, Dict, Any
@@ -13,7 +13,7 @@ API_KEY = os.getenv("ARTISAN_DEMO_API_KEY")
 API_KEY_NAME = "ARTISAN_DEMO_API_KEY"
 api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
 
-# Dependency to get the API key
+# Get the API key from the header and validate it or throw an error
 def get_api_key(api_key_header: str = Depends(api_key_header)):
     if api_key_header == API_KEY:
         return api_key_header
